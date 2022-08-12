@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import axios from '../Data/axios'
+import axios from '../../Data/axios'
 import "./Row.css"
 
 const baseURL = "https://image.tmdb.org/t/p/original"
@@ -15,9 +15,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
       }
       fetchData();
     }, [fetchUrl])
-
-
-    console.log(movies)
 
     return (
       <div className="row">
