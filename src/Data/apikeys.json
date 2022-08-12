@@ -1,0 +1,15 @@
+
+{
+  "firebaseConfig" : {
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": ""
+  },
+  "tmdbConfig" : {
+    "apiKey" : "8da49164aaee7b107a073714293029ab"
+  }
+}
